@@ -1,6 +1,6 @@
 ## Project Multiplication
 
-Repo : https://github.com/EnzoPoint/ProjectMultiplication
+Repo : https://github.com/Valentino18/ProjectMultiplication
 <br>
 TD : https://slam-vinci-melun.github.io/sio22/phase2/TP-3.2-Angular-Multiplication.pdf
 <br>
@@ -8,7 +8,7 @@ Durée de réalisation : 4h
 
 Pour lancer le projet :
 
-git clone https://github.com/EnzoPoint/ProjectMultiplication
+git clone https://github.com/Valentino18/ProjectMultiplication
 cd ProjectMultiplication 
 npm i (install)
 ng serve (pour Lancer le serveur)
