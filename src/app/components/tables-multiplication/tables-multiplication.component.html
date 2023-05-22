@@ -1,0 +1,9 @@
+<table>
+    <tr>
+        <td *ngFor="let item of [].constructor(nbChoose); let i = index">
+            <table>
+                <app-table-multiplication [nbChoose]="i + 1"></app-table-multiplication>
+            </table>
+        </td>
+    </tr>
+</table>

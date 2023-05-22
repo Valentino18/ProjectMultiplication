@@ -1,0 +1,55 @@
+<section class="section">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-half">
+        <h3 class="title is-3">Projet Multiplication by EnzoPoint</h3>
+
+        <p class="subtitle"> Multiplier par un nombre : </p>
+        <form [formGroup]="nbForm" (ngSubmit)="forMultiplication()">
+          <div class="field">
+            <label class="label"></label>
+            <div class="control">
+              <input class="input is-success" formControlName="nombre" type="number" placeholder="Entrez un nombre"
+                value="">
+                <div *ngIf="badNumber" class="help-block">
+                  <div *ngIf="badNumber">Un nombre a multiplier est demandé !</div>
+                </div>
+            </div>
+          </div>
+          <div class="field is-grouped">
+            <div class="control">
+              <button class="button is-link">Soumettre</button>
+            </div>
+          </div>
+        </form>
+        <br>
+        <div *ngIf="isSubmitted">
+          <app-table-multiplication [nbChoose]="nbChoose"></app-table-multiplication>
+        </div>
+
+        <p class="subtitle"> Afficher les tables de multiplication (input) : </p>
+          <div class="group">
+            <form [formGroup]="nbForm" (ngSubmit)="forMultiplicationTAB(nbChoose)">
+              <input class="input is-success" formControlName="nbChoose" type="number" placeholder="Entrez un nombre">
+              <div class="field is-grouped">
+              <div class="control">
+                <button class="button">Soumettre</button>
+              </div>
+            </div>
+          </form>
+              <br>
+              <p class="subtitle"> Ou via un choix sous forme de tableau : </p>
+              <table class="nombre">
+              <td>
+                <input *ngFor="let nbChoose of nbBouton" type='button'
+                  (click)='forMultiplicationTAB(nbChoose) ' value='{{nbChoose}}' />
+              </td>
+            </table>
+          </div>
+          <div *ngIf="isSubmitted2">
+            <app-tables-multiplication [nbChoose]="nbChoose"></app-tables-multiplication>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
