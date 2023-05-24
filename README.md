@@ -261,7 +261,7 @@ Par exemple voila un affichage avec 16 il va donc afficher toutes les tables de 
 
 Ce projet ma permis de bien comprendre le framework Angular, j'ai pu découvrir la puissance de NG et les différentes possibilités de l'utiliser pour faire des boucles ou encore des IF ayant des connaissances en Typescript je n'ai pas eu grande difficulté à effectuer ce TD, ma seule difficulté a été de bien comprendre le mode Parent/Enfant d'angualr mais une fois cela comprit j'ai pu mieux m'y retrouver.
 <br>
-J'ai appris seulement le mercredi 17 novembre (puisque je suis en alternance) que mes camarades avaient effectué ce TD je tenais à le faire tout d'abord pour éviter d'être trop en retard sur eux, mais c'était aussi intérresant à effectuer.
+J'ai appris seulement le mercredi 17 novembre que mes camarades avaient effectué ce TD je tenais à le faire tout d'abord pour éviter d'être trop en retard sur eux, mais c'était aussi intérresant à effectuer.
 <br>
 Je ne sais pas si j'ai bien respecté les consignes données puisque je n'ai pas pu demander d'aide où des explications à par a Google :), je pense que j'aurais pu améliorer mon README et je n'ai pas pu réaliser comme demandé les diagrammes ULM (je n'ai pas du tout compris ce qu'il fallait faire j'ai donc juste lu https://blog.anoff.io/2018-07-31-diagrams-with-plantuml/ mais je n'ai compris comment l'utiliser sur mon projet)
 <br>
